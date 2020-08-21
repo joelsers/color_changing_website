@@ -1,0 +1,45 @@
+html {
+	transition-property: background;
+	transition-duration: 2s;
+}
+
+h1 {
+	transition: all 1300ms;
+	text-align: center;
+}
+h2 {
+	transition: all 1700ms;
+	text-align: center;
+}
+h3 {
+	transition: all 500ms;
+	text-align: center;
+}
+
+p {
+	transition: all 1700ms;
+}
+blockquote {
+	transition: all 1000ms;
+}
+ol {
+	transition: all 750ms;
+}
+ul {
+	transition: all 1500ms;
+}
+
+img {
+	position: fixed;
+	width: 100px;
+	padding-left: 900px;
+	z-index: -1;
+}
+
+.big {
+	transform: scale(1);
+}
+
+.small {
+	transform: scale(0.975);
+}
